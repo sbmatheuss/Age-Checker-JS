@@ -1,0 +1,102 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+header h1 {
+    color: #1e3a8a; /* Um tom de azul escuro */
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+/* Grupo de input */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #444;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    font-size: 1rem;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb; /* Azul vibrante */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1d4ed8; /* Azul um pouco mais escuro */
+}
+
+/* Área do resultado */
+footer {
+    margin-top: 25px;
+}
+
+#resultado {
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: none; /* O resultado começa escondido */
+    transition: all 0.4s ease;
+}
+
+/* Classes que você vai adicionar com JavaScript */
+.maior-idade {
+    display: block;
+    background-color: #dcfce7; /* Fundo verde claro */
+    color: #166534; /* Texto verde escuro */
+    border: 1px solid #86efac;
+}
+
+.menor-idade {
+    display: block;
+    background-color: #fee2e2; /* Fundo vermelho claro */
+    color: #991b1b; /* Texto vermelho escuro */
+    border: 1px solid #fca5a5;
+}
